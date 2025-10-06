@@ -1,5 +1,9 @@
 # BikeKart - Plateforme de Commerce de Motos
 
+### 🌐 [Visitez le site en ligne](https://bikekartshop.netlify.app/)
+
+![BikeKart Banner](assets/images/About%20BikeKart.png)
+
 ## À propos du projet
 
 BikeKart est une plateforme de commerce électronique spécialisée dans la vente de motos, scooters et accessoires. Ce projet est une adaptation et une amélioration d'un projet existant, initialement créé dans une autre langue et avec un objectif différent. J'ai professionnalisé et localisé la plateforme pour le marché francophone, en ajoutant de nouvelles fonctionnalités et en améliorant l'expérience utilisateur.
