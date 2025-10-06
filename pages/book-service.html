@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réserver un service - BikeKart (Bénin)</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="../assets/css/book-service.css" type="text/css">
+    <link rel="icon" href="../assets/images/red icon.svg" type="image/x-icon">
+    <!-- Site improvements -->
+    <link rel="stylesheet" href="../assets/css/site-improvements.css" type="text/css" />
+    </head>
+
+    <body>
+        <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="preloader-wave"><img src="../assets/images/icon.png" alt="Logo BikeKart"></div>
+        </div>
+
+        <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html" title="BikeKart">
+                    <img class="normal" src="../assets/images/light logo.png" alt="BikeKart">
+                </a>
+            </div>
+
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu" aria-haspopup="true" aria-expanded="false">Motos <i class="fa-solid fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="submenu-list">
+                            <li><a href="./bikes.html">Nouvelles motos</a></li>
+                            <li><a href="./bikes.html">Comparer</a></li>
+                            <li><a href="./bikes.html">Prix</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu" aria-haspopup="true" aria-expanded="false">Scooters <i class="fa-solid fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="submenu-list">
+                            <li><a href="./scooters.html">Scooters</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu" aria-haspopup="true" aria-expanded="false">Accessoires <i class="fa-solid fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="./accessories.html">Pneus</a></li>
+                            <li><a href="./accessories.html">Outils & Entretien</a></li>
+                            <li><a href="./accessories.html">Équipements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./book-service.html" aria-current="page">Réserver un service</a></li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu" aria-haspopup="true" aria-expanded="false">Blog</a>
+                        <ul class="submenu-list">
+                            <li><a href="./blog.html">Actualités</a></li>
+                            <li><a href="./blog.html">Conseils</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="icons">
+                    <li>
+                        <label for="nav-search" class="visually-hidden">Recherche</label>
+                    </li>
+                    <li>
+                        <a href="./cart.html" aria-label="Panier">
+                            <span class="item-count" aria-hidden="true">0</span>
+                            <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Heading Bar -->
+    <section class="heading-bar">
+        <div class="container">
+            <div class="heading">
+                <h1>Réserver un service</h1>
+            </div>
+            <div class="sub-heading">
+                <a href="/index.html">Accueil</a>
+                <span>/</span>
+                <span class="colored-text">Réserver un service</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Service Form -->
+    <section class="book-service">
+        <div class="container">
+            <p class="lead">Réservez un service facilement en remplissant le formulaire ci‑dessous. Notre équipe vous contactera pour confirmer la prise en charge.</p>
+
+            <div class="form-section">
+                <form action="./thank-you.html" method="post" aria-label="Formulaire de réservation de service">
+
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="bike-brand" class="label">Marque</label>
+                            <select name="bike-brand" id="bike-brand" required aria-required="true">
+                                <option value="" disabled selected>Choisir la marque</option>
+                                <option value="kawasaki">KawASAKI</option>
+                                <option value="bmw">BMW</option>
+                                <option value="ktm">KTM</option>
+                                <option value="yamaha">Yamaha</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bike-model" class="label">Modèle</label>
+                            <select name="bike-model" id="bike-model" required>
+                                <option value="" disabled selected>Choisir le modèle</option>
+                                <option value="xt">XT</option>
+                                <option value="x50">X50</option>
+                                <option value="rcs">RCS</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="bike-engine" class="label">Type de moteur</label>
+                            <select name="bike-engine" id="bike-engine" required>
+                                <option value="" disabled selected>Choisir le type</option>
+                                <option value="petrol">Essence</option>
+                                <option value="electric">Électrique</option>
+                                <option value="automatic">Automatique</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="label">Nom complet</label>
+                        <input type="text" id="name" name="name" placeholder="Nom complet" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="label">Adresse e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone" class="label">Téléphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+229 90 00 00 00" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address" class="label">Adresse</label>
+                        <input type="text" id="address" name="address" placeholder="Adresse" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="payment-method" class="label">Méthode de paiement</label>
+                        <select id="payment-method" name="payment-method" required>
+                            <option value="" disabled selected>Choisir la méthode</option>
+                            <option value="cash">Paiement à la livraison</option>
+                            <option value="online">Paiement en ligne</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="label">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Dites-nous si vous avez des demandes spéciales"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" id="submit" class="btn-primary">Envoyer la réservation</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="about-text">
+                    <h4>À PROPOS</h4>
+                    <div class="footer-logo">
+                        <a href="index.html" title="BikeKart">
+                            <img class="normal" src="../assets/images/light logo.png" alt="BikeKart">
+                        </a>
+                    </div>
+                    <p>BikeKart — accessoires et services pour motos. Nous assurons la qualité et le service local à Cotonou.</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="./accessories.html">Pneus</a></li>
+                        <li><a href="./accessories.html">Outils & Entretien</a></li>
+                        <li><a href="./accessories.html">Équipements</a></li>
+                    </ul>
+                </div>
+
+                <div class="quick-links">
+                    <h4>LIENS RAPIDES</h4>
+                    <ul>
+                        <li><a href="./single-post.html">Politique de confidentialité</a></li>
+                        <li><a href="./single-post.html">Conditions</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact">
+                    <h4>CONTACTEZ-NOUS</h4>
+                    <h5><i class="fa-solid fa-phone-flip" aria-hidden="true"></i> Téléphone</h5>
+                    <p>+229 90 00 00 00 (Cotonou)</p>
+                    <h5><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</h5>
+                    <p>info@bikekart.bj</p>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Adresse</h5>
+                    <p>Quartier Commercial, Cotonou, Bénin</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="copyright-text">
+                <p>&copy; 2024 BikeKart. Conçu localement au Bénin.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

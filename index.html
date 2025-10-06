@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!--Basic-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--WebPage Title-->
+    <title>FastRider - Achetez votre moto de rêve au Bénin !</title>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <!-- Site improvements -->
+    <link rel="stylesheet" href="./assets/css/site-improvements.css" type="text/css" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon & Bookmark -->
+    <link rel="icon" href="./assets/images/red icon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Aller au contenu principal</a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-wave"><img src="./assets/images/icon.png" alt="preloader"></div>
+    </div>
+
+    <!-- Header & Navigation Bar -->
+    <header>
+        <div class="container">
+            <div class="nav-logo">
+                <a href="index.html" title="FastRider ">
+                    <img class="normal" src="./assets/images/light logo.png" alt="FastRider ">
+                </a>
+            </div>
+            <div class="navigation">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu">Motos <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu-list">
+                            <li><a href="pages/bikes.html">Nouvelles motos</a></li>
+                                <li><a href="pages/bikes.html">Trouver une moto</a></li>
+                                <li><a href="pages/bikes.html">Comparer les modèles</a></li>
+                                <li><a href="pages/bikes.html">Voir le prix sur route</a></li>
+                                <li><a href="pages/bikes.html">Concessionnaires</a></li>
+                                <li><a href="pages/bikes.html">Motos à venir</a></li>
+                                <li><a href="pages/bikes.html">Nouveautés</a></li>
+                                <li><a href="pages/bikes.html">Marques populaires</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu">Scooters <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu-list">
+                            <li><a href="pages/scooters.html">Trouver des scooters</a></li>
+                            <li><a href="pages/scooters.html">Scooters électriques</a></li>
+                            <li><a href="pages/scooters.html">Scooters à venir</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu">Accessoires <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="pages/accessories.html">Pneus</a></li>
+                            <li><a href="pages/accessories.html">Outils & Entretien</a></li>
+                            <li><a href="pages/accessories.html">Équipements de conduite</a></li>
+                            <li><a href="pages/accessories.html">Casques</a></li>
+                            <li><a href="pages/accessories.html">Protections</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pages/book-service.html">Réserver un service</a></li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu">Blog <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="submenu-list">
+                            <li><a href="pages/blog.html">Actualités</a></li>
+                            <li><a href="pages/blog.html">Vidéos & Conseils</a></li>
+                            <li><a href="pages/blog.html">Avis d'experts</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu">Pages <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="pages/contact.html">Contactez-nous</a></li>
+                            <li><a href="pages/single-post.html">FAQ</a></li>
+                            <li><a href="pages/single-post.html">Politique de confidentialité</a></li>
+                            <li><a href="pages/single-post.html">Conditions générales</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="icons">
+                    <li class="has-submenu">
+                        <a href="#" aria-label="Recherche"><i class="fa fa-search"></i></a>
+                        <ul>
+                            <li><input type="text" id="search" name="search" placeholder="Rechercher une moto..." aria-label="Rechercher une moto"></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="cart">
+                            <a href="#" aria-label="Panier"><span class="item-count">0</span>
+                                <i class="fas fa-shopping-cart"></i></a>
+                            <ul>
+                                <li><input type="text" id="items" name="items" disabled value="Aucun produit dans le panier." aria-label="Aucun produit dans le panier"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Top Slider Section -->
+    <section class="home">
+        <div class="container">
+            <div class="slider">
+                    <div class="bike-info">
+                    <h3 class="brand">Yamaha</h3>
+                    <h1 class="model">MT 03</h1>
+                    <p>Un streetfighter inspiré de la lignée YZF-R3. Compact et audacieux, il défie la concurrence.</p>
+                    <ul class="features">
+                        <li><span><i class="fa-regular fa-circle-check" aria-hidden="true"></i></span>321cc Moteur</li>
+                        <li><span><i class="fa-regular fa-circle-check" aria-hidden="true"></i></span>41.4 CV</li>
+                        <li><span><i class="fa-regular fa-circle-check" aria-hidden="true"></i></span>169 kg Poids à vide</li>
+                    </ul>
+                    <div>
+                        <span class="offer-price">2 800 000 FCFA*</span> <span class="real-price">3 000 000 FCFA*</span>
+                    </div>
+                    <div class="button-container">
+                        <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver la Yamaha MT 03">RÉSERVER</button></a>
+                    </div>
+                </div>
+                <div class="bike-image">
+                    <div class="bike-headlight" aria-hidden="true"></div>
+                    <img src="./assets/images/bikes/Yamaha_MT_03.png" alt="Yamaha MT 03 - Exemple de modèle" />
+                </div>
+            </div>
+
+            <section id="scroll-down-button-1">
+                <a href="#about" aria-label="Aller à la section À propos"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+            </section>
+
+        </div>
+    </section>
+
+    <!--About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="info">
+                    <div class="title">
+                        <h1><span>FastRider </span> LE PLUS GRAND</h1>
+                        <h2>MAGASIN <span>DE MOTOS</span> AU MONDE</h2>
+                    </div>
+                    <div class="content">
+                        <p><b>FastRider </b>, renowned as the world's largest motorcycle
+                            retailer, proudly presents a diverse range of top-tier bikes for
+                            your buying or trading needs. Explore our collection and take
+                            advantage of substantial discounts on the latest models.</p>
+                    </div>
+                    <div class="best-things">
+                        <ul class="feature-list">
+                            <li>
+                                <a href="#">
+                                    <span class="feature-icon">
+                                        <i class="far fa-circle-check" aria-hidden="true"></i>
+                                    </span>
+                                    Livraison gratuite
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="feature-icon">
+                                        <i class="far fa-circle-check" aria-hidden="true"></i>
+                                    </span>
+                                    Retours gratuits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="feature-icon">
+                                        <i class="far fa-circle-check" aria-hidden="true"></i>
+                                    </span>
+                                    Remplacement facile des pièces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="feature-icon">
+                                        <i class="far fa-circle-check" aria-hidden="true"></i>
+                                    </span>
+                                    Garantie 5 ans
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="feature-icon">
+                                        <i class="far fa-circle-check" aria-hidden="true"></i>
+                                    </span>
+                                    Boutique internationale
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="stats-counter">
+                        <div class="counter-item">
+                            <i class="fa fa-bicycle" aria-hidden="true"></i>
+                            <div class="counter-details">
+                                <span class="counter-number">500</span>
+                                <span class="counter-title">Motos vendues</span>
+                            </div>
+                        </div>
+                        <div class="counter-item">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <div class="counter-details">
+                                <span class="counter-number">2000</span>
+                                <span class="counter-title">Clients satisfaits</span>
+                            </div>
+                        </div>
+                        <div class="counter-item">
+                            <i class="fa fa-trophy" aria-hidden="true"></i>
+                            <div class="counter-details">
+                                <span class="counter-number">10</span>
+                                <span class="counter-title">Années d'activité</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                    <div class="info-image">
+                    <img src="../assets/images/About BikeKart.png" alt="À propos de FastRider  - Boutique de motos au Bénin">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="hiw-header">
+                <div class="header-content">
+                    <h2 class="main-heading">
+                        <span class="heading">Comment <span class="colored-text">ça marche</span> ?</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div>
+                    <i class="fa-solid fa-motorcycle" aria-hidden="true"></i>
+                    <h2>Trouvez la moto idéale</h2>
+                    <p>Découvrez la moto qui correspond à votre style et à vos besoins. Nous proposons un large choix de modèles adaptés au marché béninois.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
+                    <h2>Réservez en ligne</h2>
+                    <p>Réserver votre moto en ligne est simple et rapide. Réservez depuis Cotonou ou n'importe quelle ville du Bénin.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-face-smile" aria-hidden="true"></i>
+                    <h2>Profitez de votre trajet</h2>
+                    <p>Profitez pleinement de votre moto. Nos véhicules sont entretenus et prêts pour les routes béninoises.</p>
+                </div>
+            </div>
+            <section id="scroll-down-button-4" class="scroll-btn">
+                <a href="#featured-bikes" aria-label="Aller à la section Motos"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+            </section>
+        </div>
+
+    </section>
+
+    <!-- Featured Bike Section -->
+    <section class="featured-bikes" id="featured-bikes">
+        <div class="container">
+            <div class="featured-header">
+                <div class="header-content">
+                    <div class="sub-heading">
+                        <span class="sub-heading">VOTRE TRAJET COMMENCE ICI.</span>
+                    </div>
+                    <h2 class="main-heading">
+                        <span class="heading">CHOISISSEZ VOTRE <span class="colored-text">MOTO DE RÊVE</span></span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-20%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Yamaha MT 15 V2.png" alt="Yamaha MT 15 V2 - Moto urbaine"></a>
+                        <div class="bike-name"><a href="#">Yamaha MT 15 V2</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>Moteur 321cc</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>29.6Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>169kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 25/1 Mileage</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                    <span class="current-price">2 800 000 FCFA<span class="original-price"> 3 000 000 FCFA</span></span>
+                        <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver la Yamaha MT 15 V2">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-10%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Aprilia Tuareg 660.png" alt="Aprilia Tuareg 660 - Aventure"></a>
+                        <div class="bike-name"><a href="#">Aprilia Tuareg 660</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>659cc ENGINE</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>13.3Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>136kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 15/1 Mileage</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                <span class="current-price">15 000 000 FCFA<span class="original-price"> 17 000 000 FCFA</span></span>
+                <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver l'Aprilia Tuareg 660">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-05 + 2%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Royal Enfield Classic 350.png" alt="Royal Enfield Classic 350 - Classique"></a>
+                        <div class="bike-name"><a href="#">Royal Enfield Classic 350</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>350cc ENGINE</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>27Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>195kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 41.55KMPL MiL</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                <span class="current-price">1 930 000 FCFA <span class="original-price"> 2 250 000 FCFA</span></span>
+                <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver Royal Enfield Classic 350">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-01%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Tork Kratos R Urban Trim.png" alt="Tork Kratos R - Urban Trim"></a>
+                        <div class="bike-name"><a href="#">Tork Kratos R Urban Trim</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>140cc ENGINE</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>19Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>140kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 70/1 Mileage</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                <span class="current-price">1 670 000 FCFA<span class="original-price"> 1 700 000 FCFA</span></span>
+                <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver Tork Kratos R">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-08%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Ultraviolette F77.png" alt="Ultraviolette F77 - Moto électrique"></a>
+                        <div class="bike-name"><a href="#">Ultraviolette F77</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>250cc ENGINE</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>13.3Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>207kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 307 km/Charge</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                <span class="current-price">3 800 000 FCFA <span class="original-price"> 5 500 000 FCFA</span></span>
+                <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver Ultraviolette F77">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="bike">
+                        <span class="discount">-20%</span>
+                        <a href="#"><img class="bike-image" src="./assets/images/bikes/Kawasaki Ninja ZX-10R.png" alt="Kawasaki Ninja ZX-10R - Sportive"></a>
+                        <div class="bike-name"><a href="#">Kawasaki Ninja ZX-10R</a></div>
+                        <div class="bike-details">
+                            <div class="features">
+                                <div class="first">
+                                    <div class="feature">
+                                        <span><i class="fa-brands fa-superpowers"></i>998cc ENGINE</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-bolt"></i>114.9Nm Torque</span>
+                                    </div>
+                                </div>
+                                <div class="second">
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-scale-balanced"></i>207kg K
+                                            Weight</span>
+                                    </div>
+                                    <div class="feature">
+                                        <span><i class="fa-solid fa-gauge-high"></i> 12KMPL Mil</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="prices">
+                <span class="current-price">15 990 000 FCFA <span class="original-price"> 16 500 000 FCFA</span></span>
+                <a href="pages/book-service.html"><button class="book-now" aria-label="Réserver Kawasaki Ninja ZX-10R">RÉSERVER <i class="fa-solid fa-motorcycle" aria-hidden="true"></i></button></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <section id="scroll-down-button-2" class="scroll-btn">
+            <a href="#logo-marquee" aria-label="Aller à la section Marques"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+        </section>
+    </section>
+
+    <!-- Featured Brands Name -->
+    <section class="logo-marquee" id="logo-marquee">
+        <div class="header-container">
+            <div class="featured-header">
+                <div class="header-content">
+                        <div class="sub-heading">
+                        <span class="sub-heading">COLLECTION MONDIALE</span>
+                    </div>
+                    <h2 class="main-heading">
+                        <span class="heading">CHOISISSEZ PARMI LES <span class="colored-text">MEILLEURES MARQUES</span></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="marquee-wrapper">
+                <div class="marquee">
+                    <a class="#" aria-label="Harley Davidson"><img src="./assets/images/brands/Harley DEvidSON.png" alt="Logo Harley Davidson"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="TVS"><img src="./assets/images/brands/TVS.png" alt="Logo TVS"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Ford"><img src="./assets/images/brands/Ford.png" alt="Logo Ford"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Dodge"><img src="./assets/images/brands/Dodge.png" alt="Logo Dodge"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Royal Enfield"><img src="./assets/images/brands/Royal Enfield.png" alt="Logo Royal Enfield"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Hero"><img src="./assets/images/brands/HERO.png" alt="Logo HERO"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Mahindra"><img src="./assets/images/brands/Mahindra.png" alt="Logo Mahindra"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="BMW"><img src="./assets/images/brands/BMW.png" alt="Logo BMW"></a>
+                </div>
+
+                <div class="marquee">
+                    <a class="#" aria-label="KTM"><img src="./assets/images/brands/KTM.png" alt="Logo KTM"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Suzuki"><img src="./assets/images/brands/Suzuki.png" alt="Logo Suzuki"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Jaguar"><img src="./assets/images/brands/Jagaur.png" alt="Logo Jaguar"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Honda"><img src="./assets/images/brands/Honda.png" alt="Logo Honda"></a>
+                </div>
+                <div class="marquee">
+                    <a class="#" aria-label="Yamaha"><img src="./assets/images/brands/Yamaha.png" alt="Logo Yamaha"></a>
+                </div>
+            </div>
+        </div>
+        <section id="scroll-down-button-3" class="scroll-btn">
+            <a href="#featured-products" aria-label="Aller à la section Produits"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+        </section>
+    </section>
+
+    <!-- Featured Products Section-->
+    <section class="featured-products" id="featured-products">
+        <div class="header-container">
+            <div class="featured-header">
+                <div class="header-content">
+                    <div class="sub-heading">
+                        <span class="sub-heading">DÉCOUVREZ NOS ACCESSOIRES.</span>
+                    </div>
+                    <h2 class="main-heading">
+                        <span class="heading">EXPLOREZ VOTRE <span class="colored-text">ÉQUIPEMENT</span></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row one">
+                <div class="product">
+                    <div class="product-image">
+                        <a href="#" class="original-image" aria-label="Image veste de moto"><img src="./assets/images/products/Navy Blue Motorcycle Jacket.png" alt="Veste de moto bleu marine - vue avant"></a>
+                        <a href="#" class="hover-image" aria-label="Image arrière veste de moto"><img src="./assets/images/products/Navy Blue Motorcycle Jacket Back.png" alt="Veste de moto bleu marine - vue arrière"></a>
+                        <a href="pages/book-service.html"> <button class="cart-button">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ajouter au panier
+                            </button></a>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"><a href="#" aria-label="Veste de moto">VESTE DE MOTO</a></div>
+                        <div class="product-description">Veste de moto bleu marine classique avec motifs discrets et finition mate, idéale pour la conduite en ville.</div>
+                        <div class="product-price">FCFA 1 799</div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image">
+                        <a href="#" class="original-image" aria-label="Image coffre de rangement"><img src="./assets/images/products/rugged_waterproof_motorcycle_top_luggage_box.png" alt="Coffre de rangement robuste et étanche"></a>
+                        <a href="#" class="hover-image" aria-label="Image alternative coffre de rangement"><img src="./assets/images/products/lUGGAE bOX.png" alt="Coffre de rangement Droom - vue alternative"></a>
+                        <a href="pages/book-service.html"><button class="cart-button">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ajouter au panier
+                            </button></a>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"><a href="#" aria-label="Coffre de rangement Droom">Coffre de rangement Droom</a></div>
+                        <div class="product-description">Coffre supérieur étanche, finition noire mate, conçu pour une résistance maximale.</div>
+                        <div class="product-price">FCFA 999</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row two">
+                <div class="product">
+                    <div class="product-image">
+                        <a href="#" class="original-image" aria-label="Image casque Motolmet-Z"><img src="./assets/images/products/striking_dynamic_motorcycle_helmet.png" alt="Casque Motolmet-Z - vue principale"></a>
+                        <a href="#" class="hover-image" aria-label="Image alternative casque"><img src="./assets/images/products/Dynamic_motorcycle_helmet.png" alt="Casque Motolmet-Z - vue alternative"></a>
+                        <a href="pages/book-service.html"><button class="cart-button">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ajouter au panier
+                            </button></a>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"><a href="#" aria-label="Casque Motolmet-Z">Motolmet-Z</a></div>
+                        <div class="product-description">Casque au design dynamique, couleurs rouge, blanc et noir, offrant confort et protection.</div>
+                        <div class="product-price">FCFA 2 999</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row three">
+                <div class="product">
+                    <div class="product-image">
+                        <a href="#" class="original-image" aria-label="Image combinaison pluie"><img src="./assets/images/products/RED_motorcycle_rainwear_SUIT.png" alt="Combinaison de pluie rouge - vue principale"></a>
+                        <a href="#" class="hover-image" aria-label="Image alternative combinaison pluie"><img src="./assets/images/products/sleek_RED_motorcycle_rainwear_SUIT_for_twowheeler.png" alt="Combinaison de pluie rouge - vue alternative"></a>
+                        <a href="pages/book-service.html"> <button class="cart-button">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ajouter au panier
+                            </button></a>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"><a href="#" aria-label="Combinaison de pluie Premium">Combinaison pluie premium</a></div>
+                        <div class="product-description">Combinaison de pluie rouge élégante pour deux-roues, finition brillante et éléments réfléchissants pour plus de sécurité.</div>
+                        <div class="product-price">FCFA 1 499</div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product-image">
+                        <a href="#" class="original-image" aria-label="Image gants Motolves-G"><img src="./assets/images/products/Gloves.png" alt="Gants Motolves-G - vue principale"></a>
+                        <a href="#" class="hover-image" aria-label="Image alternative gants"><img src="./assets/images/products/Gloves_with_antislip_silicon_Pads.png" alt="Gants Motolves-G - vue alternative"></a>
+                        <a href="pages/book-service.html"> <button class="cart-button">
+                                <i class="fas fa-shopping-cart" aria-hidden="true"></i> Ajouter au panier
+                            </button></a>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-name"><a href="#" aria-label="Gants Motolves-G">Gants Motolves-G</a></div>
+                        <div class="product-description">Gants avec coussinets en silicone antidérapants et fermeture velcro pour une tenue sûre.</div>
+                        <div class="product-price">FCFA 399</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2 class="newsletter-heading">Inscrivez-vous et recevez <span class="colored-text">10%</span> de réduction sur votre première commande !</h2>
+            <div class="newsletter-form">
+                <label for="newsletter-email" class="visually-hidden">Adresse e-mail</label>
+                <input id="newsletter-email" type="email" name="email" placeholder="Adresse e-mail" aria-label="Adresse e-mail">
+                <button type="submit" class="btn btn-primary">S'inscrire</button>
+            </div>
+            <p class="newsletter-note">Offre valable pour les commandes livrées au Bénin.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials/Reviews-->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header">
+                <div class="header-content">
+                    <div class="sub-heading">
+                        <span class="sub-heading">TÉMOIGNAGES</span>
+                    </div>
+                    <h2 class="main-heading">
+                        <span class="heading">Avis récents et <span class="colored-text">évaluations</span></span>
+                    </h2>
+                    <div class="content">Découvrez les avis récents de nos clients béninois satisfaits.</div>
+                </div>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial">
+
+                    <div class="testimonial-item">
+                        <h3 class="item-title">
+                            <span class="quote-icon"><i class="fa-solid fa-quote-right"></i></span>
+                            <span class="title-text">Une boutique de motos fantastique !</span>
+                        </h3>
+                        <p class="testimonial-content">J'ai récemment visité cette boutique de motos et leur sélection est incroyable. Le personnel est sympathique et compétent, et m'a aidé à trouver la moto parfaite. Je suis très satisfait de mon achat !</p>
+                        <div class="reviewer-wrap">
+                            <h4 class="reviewer-name">Rajesh Kumar</h4>
+                            <ul class="rating-star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <h3 class="item-title">
+                            <span class="quote-icon"><i class="fa-solid fa-quote-right"></i></span>
+                            <span class="title-text">Service client excellent</span>
+                        </h3>
+                        <p class="testimonial-content">J'ai eu une excellente expérience dans cette boutique. Le service client est exceptionnel et l'après-vente est fiable. Je recommande vivement cette boutique aux passionnés de deux-roues.</p>
+                        <div class="reviewer-wrap">
+                            <h4 class="reviewer-name">Priya Sharma</h4>
+                            <ul class="rating-star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <h3 class="item-title">
+                            <span class="quote-icon"><i class="fa-solid fa-quote-right"></i></span>
+                            <span class="title-text">La meilleure boutique de la ville !</span>
+                        </h3>
+                        <p class="testimonial-content">Je suis client fidèle depuis des années et ils ne déçoivent jamais. Leur gamme de motos, accessoires et services d'entretien est remarquable. Le personnel est toujours courtois et serviable.</p>
+                        <div class="reviewer-wrap">
+                            <h4 class="reviewer-name">Amit Patel</h4>
+                            <ul class="rating-star">
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                                <li><i class="fa-solid fa-star"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <section id="scroll-down-button-5" class="scroll-btn">
+            <a href="#blog" aria-label="Aller à la section Blog"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+        </section>
+    </section>
+
+    <!-- Blog Posts Section-->
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="blog-header">
+                <div class="header-content">
+                        <div class="sub-heading">
+                        <span class="sub-heading">Actualités du Blog</span>
+                    </div>
+                <h2 class="main-heading">
+                    <span class="heading">NOS <span class="colored-text">BLOGS</span>
+                        &amp; ACTUALITÉS</span>
+                    </h2>
+                    <div class="content">Découvrez des aventures à moto, des avis d'experts et des conseils de conduite pertinents pour le Bénin.</div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="card">
+                    <div class="article">
+                        <div class="image">
+                            <a href="pages/single-post.html" aria-label="Lire l'article: Meilleures randonnées à moto">
+                                <img src="./assets/images/posts/Best Motorcycle Road Trips.jpg" alt="Meilleures randonnées à moto - Image"> 
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Guide</a>
+                        </div>
+                        <div class="meta">
+                            <div class="info">
+                                <span class="author">
+                                    <span class="label">Par</span>
+                                        <a href="#">Vijay</a>
+                                </span>
+                                <span class="date">
+                                    <time class="published">21 août</time>
+                                </span>
+                            </div>
+                        </div>
+            <h3 class="title"> <a href="pages/single-post.html">Explorer les plus belles routes : meilleures randonnées à moto</a></h3>
+            <p class="content">Partez pour des voyages inoubliables grâce à notre guide des randonnées à moto les plus pittoresques.</p>
+                        <div class="read-more">
+                            <a class="link" href="pages/single-post.html">
+                                <span class="text">
+                                    <small>Lire la suite</small>
+                                </span>
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="article">
+                        <div class="image">
+                            <a href="pages/single-post.html" aria-label="Lire l'article: Top 10 modèles de l'année">
+                                <img src="./assets/images/posts/Top 10 Motorcycle Models of the Year.png" alt="Top 10 modèles de l'année - Image">
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Nos réussites</a>
+                        </div>
+                        <div class="meta">
+                            <div class="info">
+                                <span class="author">
+                                    <span class="label">By</span>
+                                    <a href="#">James</a>
+                                </span>
+                                <span class="date">
+                                    <time class="published">21 août</time>
+                                </span>
+                            </div>
+                        </div>
+            <h3 class="title"> <a href="pages/single-post.html">Top 10 des modèles de motos de l'année (ventes et évaluations)</a></h3>
+            <p class="content">Des classiques vintage aux merveilles modernes, parcourez l'évolution du design des motos.</p>
+                        <div class="read-more">
+                            <a class="link" href="pages/single-post.html">
+                                <span class="text">
+                                    <small>Lire la suite</small>
+                                </span>
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="article">
+                        <div class="image">
+                            <a href="pages/single-post.html" aria-label="Lire l'article: Histoire du design des motos">
+                                <img src="./assets/images/posts/History of Motorcycle Design and Evolution Over Decades.jpg" alt="Histoire du design des motos - Image">
+                            </a>
+                        </div>
+                        <div class="category">
+                            <a href="#">Divers</a>
+                        </div>
+                        <div class="meta">
+                            <div class="info">
+                                <span class="author">
+                                    <span class="label">By</span>
+                                    <a href="#">BonD</a>
+                                </span>
+                                <span class="date">
+                                    <time class="published">21 août</time>
+                                </span>
+                            </div>
+                        </div>
+            <h3 class="title"> <a href="pages/single-post.html">Histoire du design des motos : évolution au fil des décennies</a></h3>
+            <p class="content">Découvrez les modèles de motos les plus prisés qui ont marqué le monde de la moto.</p>
+                        <div class="read-more">
+                            <a class="link" href="pages/single-post.html">
+                                <span class="text">
+                                    <small>Lire la suite</small>
+                                </span>
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-angles-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="about-text">
+                    <h4>À PROPOS</h4>
+                    <div class="footer-logo">
+                        <a href="index.html" title="FastRider">
+                            <img class="normal" src="./assets/images/light logo.png" alt="FastRider">
+                        </a>
+                    </div>
+                    <p>Plongez dans un univers de motos haut de gamme et d'accessoires premium. Améliorez le look et les performances de votre moto ou trouvez la moto de vos rêves avec nous !</p>
+                    <div class="social-icons">
+                        <a href="#" title="Facebook" aria-label="Facebook de FastRider"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="#" title="Twitter" aria-label="Twitter de FastRider"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" title="Instagram" aria-label="Instagram de FastRider"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#" title="YouTube" aria-label="YouTube de FastRider"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="services">
+                    <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="pages/accessories.html">Pièces pour tout-terrain</a></li>
+                        <li><a href="pages/accessories.html">Pneus</a></li>
+                        <li><a href="pages/accessories.html">Outils d'entretien</a></li>
+                        <li><a href="pages/accessories.html">Équipements de conduite</a></li>
+                        <li><a href="pages/accessories.html">Casques</a></li>
+                        <li><a href="pages/accessories.html">Protections</a></li>
+                    </ul>
+                </div>
+                <div class="quick-links">
+                    <h4>LIENS RAPIDES</h4>
+                    <ul>
+                        <li><a href="pages/single-post.html">Politique de confidentialité</a></li>
+                        <li><a href="pages/single-post.html">Politique de remboursement</a></li>
+                        <li><a href="pages/single-post.html">Conditions d'utilisation</a></li>
+                        <li><a href="pages/single-post.html">Produits reconditionnés</a></li>
+                        <li><a href="pages/single-post.html">Politiques d'expédition</a></li>
+                        <li><a href="pages/contact.html">Vendre avec nous</a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h4>CONTACTEZ-NOUS</h4>
+                    <h5><i class="fa-solid fa-phone-flip" aria-hidden="true"></i> Téléphone</h5>
+                    <p>+229 97 65 43 210</p>
+                    <h5><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</h5>
+                    <p>info@fastrider.bj</p>
+                    <h5><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Adresse</h5>
+                    <p>Quartier Cocotomey, Cotonou, Bénin</p>
+                </div>
+            </div>
+            <hr>
+            <!-- Copyright Informations -->
+                <div class="copyright-text">
+                <p>&copy; 2025 FastRider. Fait avec <span>❤</span> par <a href="https://twitter.com/vijaysinghop/">Eucher ABATTI</a>.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+<!-- Animation script -->
+<script src="./assets/js/animate-on-scroll.js" defer></script>
